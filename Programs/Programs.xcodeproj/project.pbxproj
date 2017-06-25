@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F392F43A1EFF400E00F87A00 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F392F4391EFF400E00F87A00 /* main.cpp */; };
+		F392F4491EFF406D00F87A00 /* strings.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4401EFF406D00F87A00 /* strings.c */; };
+		F392F44A1EFF406D00F87A00 /* LinkedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4411EFF406D00F87A00 /* LinkedLists.c */; };
+		F392F44B1EFF406D00F87A00 /* balanced_paranthesis.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4421EFF406D00F87A00 /* balanced_paranthesis.c */; };
+		F392F44C1EFF406D00F87A00 /* BitWise.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4431EFF406D00F87A00 /* BitWise.c */; };
+		F392F44D1EFF406D00F87A00 /* BinaryTrees.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4441EFF406D00F87A00 /* BinaryTrees.c */; };
+		F392F44E1EFF406D00F87A00 /* linked_lists_all.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4451EFF406D00F87A00 /* linked_lists_all.c */; };
+		F392F44F1EFF406D00F87A00 /* simple_hashmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F392F4461EFF406D00F87A00 /* simple_hashmap.cpp */; };
+		F392F4501EFF406D00F87A00 /* reverse_number.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4471EFF406D00F87A00 /* reverse_number.c */; };
+		F392F4511EFF406D00F87A00 /* reverse_string.c in Sources */ = {isa = PBXBuildFile; fileRef = F392F4481EFF406D00F87A00 /* reverse_string.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		F392F4361EFF400E00F87A00 /* Programs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programs; sourceTree = BUILT_PRODUCTS_DIR; };
 		F392F4391EFF400E00F87A00 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F392F4401EFF406D00F87A00 /* strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strings.c; sourceTree = "<group>"; };
+		F392F4411EFF406D00F87A00 /* LinkedLists.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedLists.c; sourceTree = "<group>"; };
+		F392F4421EFF406D00F87A00 /* balanced_paranthesis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = balanced_paranthesis.c; sourceTree = "<group>"; };
+		F392F4431EFF406D00F87A00 /* BitWise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BitWise.c; sourceTree = "<group>"; };
+		F392F4441EFF406D00F87A00 /* BinaryTrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BinaryTrees.c; sourceTree = "<group>"; };
+		F392F4451EFF406D00F87A00 /* linked_lists_all.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linked_lists_all.c; sourceTree = "<group>"; };
+		F392F4461EFF406D00F87A00 /* simple_hashmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simple_hashmap.cpp; sourceTree = "<group>"; };
+		F392F4471EFF406D00F87A00 /* reverse_number.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverse_number.c; sourceTree = "<group>"; };
+		F392F4481EFF406D00F87A00 /* reverse_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverse_string.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,15 @@
 		F392F4381EFF400E00F87A00 /* Programs */ = {
 			isa = PBXGroup;
 			children = (
+				F392F4401EFF406D00F87A00 /* strings.c */,
+				F392F4411EFF406D00F87A00 /* LinkedLists.c */,
+				F392F4421EFF406D00F87A00 /* balanced_paranthesis.c */,
+				F392F4431EFF406D00F87A00 /* BitWise.c */,
+				F392F4441EFF406D00F87A00 /* BinaryTrees.c */,
+				F392F4451EFF406D00F87A00 /* linked_lists_all.c */,
+				F392F4461EFF406D00F87A00 /* simple_hashmap.cpp */,
+				F392F4471EFF406D00F87A00 /* reverse_number.c */,
+				F392F4481EFF406D00F87A00 /* reverse_string.c */,
 				F392F4391EFF400E00F87A00 /* main.cpp */,
 			);
 			path = Programs;
@@ -119,7 +146,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F392F44D1EFF406D00F87A00 /* BinaryTrees.c in Sources */,
+				F392F4491EFF406D00F87A00 /* strings.c in Sources */,
 				F392F43A1EFF400E00F87A00 /* main.cpp in Sources */,
+				F392F4511EFF406D00F87A00 /* reverse_string.c in Sources */,
+				F392F44B1EFF406D00F87A00 /* balanced_paranthesis.c in Sources */,
+				F392F44E1EFF406D00F87A00 /* linked_lists_all.c in Sources */,
+				F392F4501EFF406D00F87A00 /* reverse_number.c in Sources */,
+				F392F44A1EFF406D00F87A00 /* LinkedLists.c in Sources */,
+				F392F44F1EFF406D00F87A00 /* simple_hashmap.cpp in Sources */,
+				F392F44C1EFF406D00F87A00 /* BitWise.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
